@@ -1,0 +1,27 @@
+/*
+ * Hello.cpp
+ *
+ *  Created on: 17 october 2015
+ *      Author: Afridho Rachmadi Kartawiria | 1517051173
+ */
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ()
+{
+    int nomor;
+    cout<< "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MESIN MINUMAN C1HuY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+    cout<< "Daftar Nomor Minuman C1HuY\n\n";
+    cout<< "1. Susu C1HuY \3\n2. Soda Y4HuT \3\n3. Soda Susu C1HuY Y4HuT \3 \3\n4. Milkshake K0c0k C1HuY \3 \3\n5. Jus G3b0y Y4HuT \3 \3\n\n";
+    cout<< "masukan nomor C1HuY : ";
+    cin>>nomor;
+    switch (nomor)
+    {
+        case 1:cout<<"Susu C1HuY \3";break;
+        case 2:cout<<"Soda Y4HuT \3";break;
+        case 3:cout<<"Soda Susu C1HuY Y4HuT \3 \3";break;
+        case 4:cout<<"Milkshake K0c0k C1HuY \3 \3";break;
+        case 5:cout<<"Jus G3b0y Y4HuT \3 \3";break;
+        default :cout<<"bukan minuman C1HuY";break;
+    }
+}
